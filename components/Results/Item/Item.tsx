@@ -28,7 +28,7 @@ const Item = ({ title, price, image }: ItemProps) => {
             <div className='flex items-center'>
               <Star className='h-4 w-4 mr-1 stroke-sky-400 fill-sky-400' />
               <p className='text-sm'>
-                4.9 <span className='text-muted-foreground'>{price}</span>
+                4.9 <span className='text-muted-foreground'>(75)</span>
               </p>
             </div>
             <p className='text-sm'>2.2 km</p>
@@ -36,7 +36,7 @@ const Item = ({ title, price, image }: ItemProps) => {
         </div>
         <div className='flex-1 flex flex-col justify-end'>
           <div className='flex items-center justify-between'>
-            <p className='font-semibold text-xl'>£10</p>
+            <p className='font-semibold text-xl'>{price}</p>
             <Button>Details</Button>
           </div>
         </div>
