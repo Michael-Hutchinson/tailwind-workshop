@@ -25,9 +25,11 @@ const Item = ({ title, price, image }: ItemProps) => {
             <Heart className='h-5 w-5' />
           </div>
           <div className='flex items-center gap-x-3'>
-            <div className='flex items-center text-sm'>
+            <div className='flex items-center'>
               <Star className='h-4 w-4 mr-1 stroke-sky-400 fill-sky-400' />
-              4.9&nbsp;<span className='text-muted-foreground'>{price}</span>
+              <p className='text-sm'>
+                4.9 <span className='text-muted-foreground'>{price}</span>
+              </p>
             </div>
             <p className='text-sm'>2.2 km</p>
           </div>
