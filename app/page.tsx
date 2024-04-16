@@ -10,7 +10,7 @@ export default function Home() {
         <Filters />
         <Results />
       </div>
-      <div className='h-full col-span-2 rounded-xl bg-blue-400 relative overflow-hidden'>
+      <div className='h-full col-span-2 rounded-xl relative overflow-hidden'>
         <Image fill alt='' src='/map.jpg' className='object-cover' />
         <Dot className='top-[30vh] left-[30vh]' />
         <Dot className='top-[20vh] left-[10vh]' />
