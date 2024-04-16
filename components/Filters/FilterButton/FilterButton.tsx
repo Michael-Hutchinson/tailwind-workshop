@@ -10,7 +10,7 @@ const FilterButton = ({ label, active }: FilterButtonProps) => {
     <button
       className={cn(
         active && 'bg-sky-500/40 text-neutral-800',
-        'p-2 rounded-xl text-muted-foreground'
+        'p-2 px-3 rounded-xl text-muted-foreground'
       )}
     >
       {label}
