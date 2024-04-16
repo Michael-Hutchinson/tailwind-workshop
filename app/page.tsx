@@ -1,3 +1,4 @@
+import Dot from '@/components/Dot/Dot';
 import Filters from '@/components/Filters/Filters';
 import Results from '@/components/Results/Results';
 import Image from 'next/image';
@@ -11,6 +12,9 @@ export default function Home() {
       </div>
       <div className='h-full col-span-2 rounded-xl bg-blue-400 relative overflow-hidden'>
         <Image fill alt='' src='/map.jpg' className='object-cover' />
+        <Dot className='top-[30vh] left-[30vh]' />
+        <Dot className='top-[20vh] left-[10vh]' />
+        <Dot className='top-[10vh] right-[10vh]' />
       </div>
     </div>
   );
